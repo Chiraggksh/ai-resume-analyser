@@ -231,7 +231,7 @@ InterviewForge/
 </p>
 
 1. User submits **job description**, **resume text**, and **self-description**
-2. Backend constructs a structured prompt and calls **Google Gemini 2.0 Flash Preview**
+2. Backend constructs a structured prompt and calls **Google Gemini 3.0 Flash Preview**
 3. The model returns a JSON object conforming to our Zod schema
 4. The validated result is stored in **MongoDB** and sent to the frontend
 5. React renders match score, skill gaps, questions, and the roadmap
